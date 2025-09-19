@@ -3,6 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
+    //hjidfsuhusiuhiushfiuhiuhfsujnuidfgiuhiudf
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-6 py-10">
       {/* Main Content Container */}
       <div className="max-w-6xl w-full bg-white p-12 rounded-2xl shadow-xl">
