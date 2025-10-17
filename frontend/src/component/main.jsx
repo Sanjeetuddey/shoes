@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ShoppingCart, Star } from "lucide-react";
-import Image from "../assets/shoes.webp"; // your local shoe image
+import Image from "../assets/shoes.webp"; // your local 
+
 
 const shoesData = [
   {
@@ -57,7 +58,8 @@ function Main() {
       : shoesData.filter((shoe) => shoe.category === selectedCategory);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-12 px-6">
+    //start of main div
+    <div className="w-full h-full bg-gradient-to-b from-gray-50 to-gray-100 py-22 px-9">
       {/* Header */}
       <div className="text-center mb-10">
         <motion.h1
