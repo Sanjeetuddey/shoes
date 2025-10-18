@@ -2,6 +2,8 @@ import User from "../models/user.models.js";
 import bcrypt from "bcrypt";
 import generateToken from "../config/auth.js";
 
+
+// User Signup Controller
 export const userSignup = async (req, res, next) => {
   try {
     const { fullName, email, password, gender, age, mobile } = req.body;
@@ -20,6 +22,7 @@ export const userSignup = async (req, res, next) => {
       return;
     }
 
+// Check if user already exists
     const encryptedPassword = await bcrypt.hash(password, 10);
 
     const newUser = await User.create({
@@ -38,6 +41,8 @@ export const userSignup = async (req, res, next) => {
   }
 };
 
+
+// User Login Controller
 export const userLogin = async (req, res, next) => {
   try {
     const { email, password } = req.body;
