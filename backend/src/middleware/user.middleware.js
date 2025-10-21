@@ -12,6 +12,7 @@ export const userLog = (req, res, next) => {
   next();
 };
 
+// Middleware to confirm user authentication
 export const confirmUser = async (req, res, next) => {
   try {
     const token = req.cookies.jwt;
