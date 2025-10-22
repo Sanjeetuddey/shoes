@@ -1,6 +1,7 @@
 import jwt from "jsonwebtoken";
 import User from "../models/user.models.js";
 
+// Middleware to log user requests
 export const userLog = (req, res, next) => {
   console.log(
     `Test Request is executed for user 
