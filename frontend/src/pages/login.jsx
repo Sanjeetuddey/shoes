@@ -1,6 +1,7 @@
 import React from "react";
 import BgImage from "../assets/login.jpg"; // Ensure the image is in the correct path
 
+// Login Component
 const Login = () => {
   return (
     <div
