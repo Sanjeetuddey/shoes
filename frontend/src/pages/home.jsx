@@ -4,7 +4,7 @@ import Image from "../assets/shoes.webp";
 const Home = () => {
   return (
     <>
-{/*       
+      
       <div className="bg-gray-100 min-h-screen flex flex-col md:flex-row items-center justify-center px-10 py-20">
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
@@ -26,7 +26,7 @@ const Home = () => {
             className="w-full h-auto max-h-[80vh] object-cover"
           />
         </div>
-      </div> */}
+      </div>
     </>
   );
 };
