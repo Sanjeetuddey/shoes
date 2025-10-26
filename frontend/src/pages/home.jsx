@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../assets/shoes.webp";
 
-
+//ome pae
 const Home = () => {
   return (
     <>
