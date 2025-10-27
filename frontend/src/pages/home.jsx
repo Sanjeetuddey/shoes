@@ -20,7 +20,8 @@ const Home = () => {
             Shop Now
           </button>
         </div>
-
+        
+         //home page content
         <div className="md:w-1/2 flex justify-center">
           <img
             src={Image}
