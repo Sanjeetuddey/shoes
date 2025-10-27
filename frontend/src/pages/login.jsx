@@ -4,7 +4,7 @@ import BgImage from "../assets/login.jpg"; // Ensure the image is in the correct
 // Login Component
 const Login = () => {
   return (
-    
+    // Main Container
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center relative"
       style={{ backgroundImage: `url(${BgImage})` }} // Background image applied
