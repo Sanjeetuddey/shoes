@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../assets/shoes.webp";
 
-//ome pae
+//Home 
 const Home = () => {
   return (
     <>
@@ -20,7 +20,7 @@ const Home = () => {
             Shop Now
           </button>
         </div>
-        
+
          //home page content
         <div className="md:w-1/2 flex justify-center">
           <img
