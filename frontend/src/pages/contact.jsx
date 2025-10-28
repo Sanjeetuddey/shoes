@@ -1,11 +1,13 @@
-
-
 import React from "react";
-import BackgroundImage from "../assets/foot.jpg"; // Ensure this image exists in your assets folder
+import BackgroundImage from "../assets/foot.jpg";
+// Ensure this image exists in your assets folder
 
+
+
+// Contact Component
 const Contact = () => {
   return (
-    <div
+        <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center px-4"
       style={{
         backgroundImage: `url(${BackgroundImage})`,

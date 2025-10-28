@@ -40,6 +40,7 @@ function Shop() {
   ]);
 
   return (
+    //shop page
     <div className="min-h-screen bg-gray-100 p-6">
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">
         Our Shoe Collection
