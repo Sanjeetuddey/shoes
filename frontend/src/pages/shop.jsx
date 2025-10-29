@@ -45,7 +45,7 @@ function Shop() {
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-6">
         Our Shoe Collection
       </h1>
-
+//shoe display
       <div className="flex flex-wrap justify-center gap-6">
         {shoes.map((shoe) => (
           <div
