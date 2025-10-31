@@ -10,6 +10,7 @@ const Home = () => {
           <h1 className="text-6xl font-extrabold text-gray-900 leading-tight">
             Step Into <span className="text-amber-500">Comfort & Style</span>
           </h1>
+          //main pae
           <p className="text-gray-600 w-2xl text-lg max-w-lg">
             Discover our latest collection of stylish and comfortable shoes.
             Perfect for every occasion!
