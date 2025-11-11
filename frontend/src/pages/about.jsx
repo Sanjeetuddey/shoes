@@ -6,8 +6,7 @@ const About = () => {
     
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-6 py-10">
             <div className="max-w-6xl w-full bg-white p-12 rounded-2xl shadow-xl">
-        {/* About Us Section */}
-        <h2 className="text-5xl font-extrabold text-gray-900 text-center">
+                <h2 className="text-5xl font-extrabold text-gray-900 text-center">
           About <span className="text-amber-500">ShoeHub</span>
         </h2>
         <p className="text-gray-600 text-center mt-4 text-lg max-w-3xl mx-auto">
