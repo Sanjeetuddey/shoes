@@ -14,7 +14,7 @@ const About = () => {
           Our goal is to bring you the latest styles with unbeatable comfort and durability.
         </p>
 
-        {/* Our Mission */}
+       
         <div className="mt-10 text-center">
           <h3 className="text-3xl font-bold text-gray-900">Our Mission</h3>
           <p className="text-gray-700 mt-4 text-lg max-w-3xl mx-auto">
