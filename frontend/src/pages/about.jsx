@@ -23,8 +23,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* Why Choose Us? */}
-        <div className="mt-10 text-center">
+               <div className="mt-10 text-center">
           <h3 className="text-3xl font-bold text-gray-900">Why Choose Us?</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
             <div className="bg-gray-200 p-6 rounded-lg shadow-md">
