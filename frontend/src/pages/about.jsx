@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Meet Our Team */}
+      
         <div className="mt-16">
           <h3 className="text-3xl font-bold text-gray-900 text-center">Meet Our Team</h3>
           <div className="flex flex-wrap justify-center gap-8 mt-10">
